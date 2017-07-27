@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_meet_list_item_top"
+        android:layout_width="240dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/meet_list_top_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_huiyi_lv_shang"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_title"
+                style="@style/MeetTitleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_top_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#b7efb7"
+                android:textSize="@dimen/text_size_14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_huiyi_bai_shang"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_msg"
+                style="@style/MeetContentTxt" />
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_place"
+                style="@style/MeetContentTxt" />
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_type"
+                style="@style/MeetContentTxt" />
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_host"
+                style="@style/MeetContentTxt" />
+
+            <TextView
+                android:id="@+id/tv_meet_participation_top"
+                style="@style/BaseBtn.MeetBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#bcdeff"
+                android:text="@string/meet_participation"
+                android:textColor="@color/login_bg" />
+
+            <LinearLayout
+                android:id="@+id/ll_host_top_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+
+                <TextView
+                    android:id="@+id/tv_start_meet_top"
+                    style="@style/BaseBtn.MeetBtn"
+                    android:layout_weight="1"
+                    android:background="#bcdeff"
+                    android:padding="10dp"
+                    android:text="@string/meet_start"
+                    android:textColor="@color/login_bg" />
+
+                <TextView
+                    android:id="@+id/tv_end_meet_top"
+                    style="@style/BaseBtn.MeetBtn"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="#e7eaec"
+                    android:text="@string/meet_end"
+                    android:textColor="@color/login_bg" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="240dp"
+            android:layout_height="4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/dash_line"
+            android:layerType="software"></View>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/shijianzhou_yuan" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/shijianzhou_time" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_meet_list_item_bottom"
+        android:layout_width="240dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/meet_list_bottom_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_huiyi_lv_xia"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_title_bottom"
+                style="@style/MeetTitleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_bottom_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#b7efb7"
+                android:textSize="@dimen/text_size_14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_huiyi_bai_xia"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_msg_bottom"
+                style="@style/MeetContentTxt" />
+
+            <TextView
+                android:id="@+id/tv_meet_list_item_place_bottom"
+                style="@style/MeetContentTxt" />
+            <TextView
+                android:id="@+id/tv_meet_list_item_type_bottom"
+                style="@style/MeetContentTxt" />
+            <TextView
+                android:id="@+id/tv_meet_list_item_host_bottom"
+                style="@style/MeetContentTxt" />
+
+            <TextView
+                android:id="@+id/tv_meet_participation_bottom"
+                style="@style/BaseBtn.MeetBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#bcdeff"
+                android:text="@string/meet_participation"
+                android:textColor="@color/login_bg" />
+
+            <LinearLayout
+                android:id="@+id/ll_host_bottom_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+
+                <TextView
+                    android:id="@+id/tv_start_meet_bottom"
+                    style="@style/BaseBtn.MeetBtn"
+                    android:layout_weight="1"
+                    android:background="#bcdeff"
+                    android:text="@string/meet_start"
+                    android:textColor="@color/login_bg" />
+
+                <TextView
+                    android:id="@+id/tv_end_meet_bottom"
+                    style="@style/BaseBtn.MeetBtn"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="#e7eaec"
+                    android:text="@string/meet_end"
+                    android:textColor="@color/login_bg" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

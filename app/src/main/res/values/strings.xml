@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">智能会议</string>
+    <string name="title_activity_login">登录</string>
+    <string name="hint_no_net">无网络连接请检查网络是否可用!</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="menu_meet">会议列表</string>
+    <string name="menu_msg">未读消息</string>
+    <string name="menu_search">资料检索</string>
+    <string name="menu_exit">退出系统</string>
+    <string name="meet_sign">签到统计</string>
+
+
+    <string name="meet_info">会议信息</string>
+    <string name="meet_start">启动</string>
+    <string name="meet_end">结束</string>
+    <string name="meet_participation">参与</string>
+
+
+    <string name="menu_notice">通知通告</string>
+    <string name="menu_info">会议信息</string>
+    <string name="menu_lssue">议题列表</string>
+    <string name="menu_call_out">呼叫服务</string>
+    <string name="menu_say">申请发言</string>
+    <string name="menu_vote">会议投票</string>
+    <string name="menu_record">我的记录</string>
+    <string name="menu_file">会议归档</string>
+    <string name="menu_summary">会议纪要</string>
+    <string name="menu_sign">签到统计</string>
+    <string name="menu_meet_end">结束会议</string>
+
+    <string name="call_water">茶水</string>
+    <string name="call_mike">麦克风</string>
+    <string name="call_pen">纸笔</string>
+    <string name="call_flower">鲜花</string>
+    <string name="call_person">服务员</string>
+
+    <string name="exit_title">退出登录</string>
+    <string name="exit_hint_msg">确定退出当前用户吗？</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_no">取消</string>
+    <string name="sign_number">编号</string>
+    <string name="sign_name">姓名</string>
+    <string name="sign_department">部门</string>
+    <string name="sign_duty">职务</string>
+    <string name="sign_signtime">签到时间</string>
+
+
+    <string name="end_meet_title">结束会议</string>
+    <string name="end_meet_hint">确定结束此次会议吗？</string>
+
+</resources>

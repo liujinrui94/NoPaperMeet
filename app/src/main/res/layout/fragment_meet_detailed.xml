@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragment_meet_detailed_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="标题"
+            android:textColor="@color/top_title_text"
+            android:textSize="@dimen/text_size_20"
+            android:textStyle="bold" />
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="会议时间:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_data"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="会议地点:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_place"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="会议类型:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_type"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="会议主持人:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_host"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="参会要求:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_reqiuce"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="会场要求:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_placeRequice"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="会议内容:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_content"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="会议资料:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_info"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/MeetDetailItem">
+
+            <TextView
+                style="@style/MeetDetailLable"
+                android:text="参会人员:" />
+
+            <TextView
+                android:id="@+id/fragment_meet_detailed_people"
+                style="@style/MeetDetailValue"
+                android:text="会议时间" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

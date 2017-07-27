@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="aeaeae">#aeaeae</color>
+
+    <color name="colorPrimary">@color/menu_main</color>
+    <color name="colorPrimaryDark">@color/menu_main</color>
+    <color name="colorAccent">#ef6c00</color>
+    <color name="menu_main">#2c3e50</color>
+    <color name="menu_main_select">#34495e</color>
+    <color name="menu_text">#8fa4b9</color>
+    <color name="content_bg">#f1f1f1</color>
+    <color name="content_bg2">#ffffff</color>
+    <color name="item_unread">#f7fafc</color>
+    <color name="top_title_bg">#d8e8f7</color>
+    <color name="top_title_text">#2c3e50</color>
+    <color name="menu_content_txt">#354756</color>
+    <color name="btn_green">#4caf50</color>
+    <color name="btn_green_press">#388e3c</color>
+    <color name="btn_orange">#f57c00</color>
+    <color name="btn_orange_press">#ef6c00</color>
+
+    <color name="background_bule">#DAE6FF</color>
+    <color name="background_green">#5DE063</color>
+
+
+    <color name="btn_blue">#00a0e9</color>
+    <color name="btn_blue_press">#0277bd</color>
+    <color name="login_bg">#0087e3</color>
+
+    <color name="item">@color/content_bg</color>
+    <color name="item_select">#B1DFEC</color>
+
+    <color name="tv_red_background">#FF002B</color>
+
+    <color name="btn_jinxingzhong">#7dd67d</color>
+    <color name="btn_weikaishi">#e89f51</color>
+    <color name="btn_yijieshu">#869db4</color>
+
+    <color name="bg_jinxingzhong">#d8f9d8</color>
+    <color name="bg_weikaishi">#feebd7</color>
+    <color name="bg_yijieshu">#d7e0ea</color>
+
+    <color name="bg_time_txt_1">#b7efb7</color>
+    <color name="bg_time_txt_2">#f4cfa9</color>
+
+</resources>

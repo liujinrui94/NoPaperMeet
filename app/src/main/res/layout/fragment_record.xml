@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bril.nopapermeet.ui.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/view_title" />
+
+        <include layout="@layout/layout_empty" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/fragment_record_listView"
+                android:layout_width="@dimen/item_wide"
+                android:layout_height="match_parent"
+                android:descendantFocusability="beforeDescendants"
+                android:dividerHeight="0dp"
+                android:focusableInTouchMode="true"
+                android:scrollbars="none"></ListView>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray_btn_bg_color" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/fragment_record_relativeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="暂无数据" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fragment_record_linearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_marginRight="@dimen/large_margin"
+                        android:padding="2dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/et_fragment_record_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="58dp"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:maxLength="50"
+                                android:text="请选择记录"
+                                android:textColor="@color/top_title_text"
+                                android:textSize="@dimen/text_size_20" />
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="@dimen/card_bottom_margin"
+                            android:layout_marginTop="@dimen/card_top_margin"
+                            android:background="@color/aeaeae" />
+
+                        <EditText
+                            android:id="@+id/et_fragment_record_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/login_edittext_bg"
+                            android:gravity="top"
+                            android:maxLength="500"
+                            android:minLines="7"
+                            android:padding="8dp"
+                            android:text="请选择记录"
+                            android:textSize="@dimen/text_size_16" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/fragment_record_save"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/btn_background"
+                                android:onClick="onClick"
+                                android:paddingTop="12dp"
+                                android:paddingBottom="12dp"
+                                android:paddingLeft="24dp"
+                                android:paddingRight="24dp"
+                                android:text="保存"
+                                android:textSize="@dimen/text_size_18"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:id="@+id/fragment_record_cancel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:background="@drawable/btn_background"
+                                android:onClick="onClick"
+                                android:paddingLeft="24dp"
+                                android:paddingRight="24dp"
+                                android:paddingTop="12dp"
+                                android:paddingBottom="12dp"
+                                android:textSize="@dimen/text_size_18"
+                                android:text="编辑"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
